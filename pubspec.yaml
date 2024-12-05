@@ -1,0 +1,30 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_shaders: ^0.1.3
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  shaders:
+    - shaders/rain.frag
+    - shaders/pixel_art.frag
+    - shaders/curve.frag
+    - shaders/finger_light.frag
