@@ -8,3 +8,6 @@ The goal of this proof of concept is to showcase how Flutter can be extended wit
 - **Interactive "Light" Effect**: As the user moves their finger across the screen, an image gradually appear.
 - **Custom GLSL Shader**: The effect is implemented using GLSL shaders, providing a high level of control over the visual appearance.
 - **Flutter Integration**: Seamless integration of custom shaders with Flutter widgets, demonstrating how to use shaders for interactive effects.
+
+## More info
+https://medium.com/@maurobeltrame12/exploring-shaders-in-flutter-my-journey-from-knowing-to-implementing-c25d7d73cc62
